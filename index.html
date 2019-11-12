@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Boombox title</title>
-  <meta name="description" content="Boombox ">
+  <meta name="description" content="Boombox is our classroom component library">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="manifest" href="site.webmanifest">
@@ -18,14 +18,46 @@
 </head>
 
 <body>
-  <header>
+  <header class="bb-header">
     This is <em>header</em>
   </header>
-  <main>
-    This is <em>main</em>
-    test image: <img src="img/giz.jpg" alt="here is some alt text of good old Gizmo">
+  <main class="bb-main">
+    <h1>Welcoe to Boombox</h1>
+    <section>
+      <h2 class="bb-section-headline">Buttons</h2>
+      <button class="bb-button" type="button">button</button>
+      <button class="bb-button" type="button">button</button>
+      <button class="bb-button" type="button">button</button>
+    </section>
+    <section>
+      <h2 class="bb-section-headline">Links</h2>
+      <a class="bb-link" href="#0">Link</a>
+      <a class="bb-link" href="#0">Link</a>
+      <a class="bb-link" href="#0">Link</a>
+    </section>
+    <section>
+      <h2 class="bb-section-headline">Lists</h2>
+      <ul class="bb-list">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+      </ul>
+      <ol class="bb-list">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+      </ol>
+    </section>
+    <section>
+      <h2 class="bb-section-headline">Images</h2>
+      test image: <img src="img/giz.jpg" alt="here is some alt text of good old Gizmo">
+    </section>
   </main>
-  <footer>
+  <footer class="bb-footer">
     This is the <em>footer</em>
   </footer>
   <script src="js/plugins.js"></script>
