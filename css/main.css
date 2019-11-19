@@ -41,6 +41,15 @@ img {
 }
 
 /* BUTTONS */
+.bb-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.bb-buttons > *:not(:last-child) { /* add margin to every direct child except the last one  */
+  margin-right: 20px;
+}
+
 .bb-button {
   padding: 6px 12px;
   font-size: 1rem;
@@ -69,8 +78,11 @@ img {
 /* LAYOUT */
 .bb-section {
   padding-bottom: 20px;
-  margin-bottom: 20px;
   border-bottom: 1px solid #333;
+}
+
+.bb-section:not(:last-of-type) {
+  margin-bottom: 20px;
 }
 
 /* FORM ELEMENTS */
